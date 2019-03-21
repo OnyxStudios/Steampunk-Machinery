@@ -1,0 +1,16 @@
+{
+    "id": "steampunk_machinery",
+    "name": "Steampunk Machinery",
+    "version": "1.0",
+    "side": "universal",
+    "initializers": [
+        "nerdhub.steampunk.machinery.SteampunkMachinery"
+    ],
+    "requires": {
+        "fabric": "*",
+        "mesh": "*"
+    },
+    "mixins": {
+        "common": "mixins.steampunk_machinery.common.json"
+    }
+}
