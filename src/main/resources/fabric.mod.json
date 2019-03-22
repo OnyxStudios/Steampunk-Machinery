@@ -4,6 +4,11 @@
     "version": "1.0",
     "side": "universal",
     "initializers": [
+        "nerdhub.steampunk.machinery.init.SteampunkBlockEntityTypes",
+        "nerdhub.steampunk.machinery.init.SteampunkBlocks",
+        "nerdhub.steampunk.machinery.init.SteampunkFluids",
+        "nerdhub.steampunk.machinery.init.SteampunkItems",
+        "nerdhub.steampunk.machinery.init.SteampunkMultiblocks",
         "nerdhub.steampunk.machinery.SteampunkMachinery"
     ],
     "requires": {
