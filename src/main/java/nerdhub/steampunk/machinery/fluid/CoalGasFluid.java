@@ -17,16 +17,16 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.ViewableWorld;
 
-public class SteamFluid extends BaseFluid {
+public class CoalGasFluid extends BaseFluid {
 
     @Override
     public Fluid getFlowing() {
-        return SteampunkFluids.STEAM_FLOWING;
+        return SteampunkFluids.COAL_GAS_FLOWING;
     }
 
     @Override
     public Fluid getStill() {
-        return SteampunkFluids.STEAM;
+        return SteampunkFluids.COAL_GAS;
     }
 
     //does the block "fall"
@@ -82,7 +82,7 @@ public class SteamFluid extends BaseFluid {
 
     @Override
     protected BlockState toBlockState(FluidState state) {
-        return SteampunkBlocks.STEAM.getDefaultState().with(FluidBlock.LEVEL, method_15741(state));
+        return SteampunkBlocks.COAL_GAS.getDefaultState().with(FluidBlock.LEVEL, method_15741(state));
     }
 
     @Override
@@ -97,7 +97,7 @@ public class SteamFluid extends BaseFluid {
 
     @Override
     public boolean matchesType(Fluid other) {
-        return other == SteampunkFluids.STEAM_FLOWING || other == SteampunkFluids.STEAM;
+        return other == SteampunkFluids.COAL_GAS_FLOWING || other == SteampunkFluids.COAL_GAS;
     }
 
     public static class Flowing extends SteamFluid {

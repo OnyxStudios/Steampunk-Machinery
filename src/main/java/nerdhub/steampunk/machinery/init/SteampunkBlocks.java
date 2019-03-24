@@ -12,4 +12,5 @@ import net.minecraft.block.Material;
 public class SteampunkBlocks implements AutoRegistryHook {
 
     public static final Block STEAM = new BaseFluidBlock(SteampunkFluids.STEAM, FabricBlockSettings.of(Material.WATER).strength(100.0F, 100.0F).noCollision().dropsNothing());
+    public static final Block COAL_GAS = new BaseFluidBlock(SteampunkFluids.COAL_GAS, FabricBlockSettings.of(Material.WATER).strength(100.0F, 100.0F).noCollision().dropsNothing());
 }

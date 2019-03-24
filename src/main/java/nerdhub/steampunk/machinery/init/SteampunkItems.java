@@ -11,5 +11,7 @@ import net.minecraft.item.Items;
 public class SteampunkItems implements AutoRegistryHook {
 
     public static final Item STEAM_BUCKET = new BucketItem(SteampunkFluids.STEAM, new Item.Settings().stackSize(1).itemGroup(SteampunkMachinery.ITEM_GROUP).recipeRemainder(Items.BUCKET));
+    public static final Item COAL_GAS_BUCKET = new BucketItem(SteampunkFluids.COAL_GAS, new Item.Settings().stackSize(1).itemGroup(SteampunkMachinery.ITEM_GROUP).recipeRemainder(Items.BUCKET));
+    public static final Item COAL_TAR = new Item(new Item.Settings().stackSize(16).itemGroup(SteampunkMachinery.ITEM_GROUP));
 
 }

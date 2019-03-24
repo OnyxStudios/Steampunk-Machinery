@@ -9,6 +9,7 @@
         "nerdhub.steampunk.machinery.init.SteampunkFluids",
         "nerdhub.steampunk.machinery.init.SteampunkItems",
         "nerdhub.steampunk.machinery.init.SteampunkMultiblocks",
+        "nerdhub.steampunk.machinery.init.SteampunkRecipes",
         "nerdhub.steampunk.machinery.SteampunkMachinery"
     ],
     "requires": {
